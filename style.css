@@ -1,0 +1,64 @@
+body {
+    background-image: url('pexels-brett-sayles-1431822.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+
+}
+
+form {
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgb(149, 149, 149);
+    margin-top: 50px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 1.5em;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #828282;
+    color: white;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
